@@ -1,0 +1,57 @@
+!SESSION 2015-05-22 16:22:01.276 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.461
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.552
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.580
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.629
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.662
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:10.953
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:11.008
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:11.080
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:11.140
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:11.205
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2015-05-22 16:22:11.253
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse10\MyEclipse 10\configuration\org.eclipse.osgi\bundles\134\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+!SESSION 2015-05-22 16:23:05.000 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data D:\GitHub\Ladder -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-05-22 16:23:33.268
+!MESSAGE Could not determine source level, using default 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-05-22 16:23:33.274
+!MESSAGE Could not determine target level, using default 
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-05-22 16:24:58.546
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-05-22 16:24:58.722
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
