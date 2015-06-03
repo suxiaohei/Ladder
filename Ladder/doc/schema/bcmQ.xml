@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bcm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="bcmQ.xsd"
+	version="5.0" type="web" owlVersion="5.0">
+	<class field="JournalPaper" sort="1" image="default.jpg">
+		<data-property>
+			<dp field="title" sort="1" chart="pie" advance="true" />
+			<dp field="otherTitle" showName="第二标题"/>
+			<dp field="issn"/>
+			<dp field="abstract" sort="2" advance="true"/>
+			<dp field="year" />
+			<dp field="volume"/>
+			<dp field="issue"/>
+			<dp field="startPage"/>
+			<dp field="endPage"/>
+			<dp field="createTime" hidden="true"/>
+		</data-property>
+		<object-property>
+			<op field="hasOrganization" showName="单位"
+			sort="1" image="default.jpg" advance="true">
+			<rel-dp field="name" />
+			</op>
+			<op field="hasAuthor" showName="作者">
+				<rel-dp field="sequence" hidden="true"/>
+				<rel-dp field="name" chart="pie" showName="作者"
+				sort="1" advance="true"/>
+			</op>
+			<op field="hasPublisher" showName="发布者" hidden="true">
+				<rel-dp field="name" />
+			</op>
+			<op field="hasKeyword" showName="关键词" >
+				<rel-dp field="name" />
+				<rel-dp field="weight" />
+			</op>
+		</object-property>
+	</class>
+	<class field="People" showName="作者" >
+		<data-property>
+			<dp field="sequence"/>
+			<dp field="name"/>
+			<dp field="birthday"/>
+		</data-property>
+		<object-property>
+			<op field="hasOrganization" >
+				<rel-dp field="name"/>
+			</op>
+		</object-property>
+	</class>
+	<class field="Organization" showName="单位">
+		<data-property>
+			<dp field="name"/>
+			<dp field="address"/>
+			<dp field="city"/>
+		</data-property>
+	</class>
+	<!-- 引入其它配置文件-->
+	<import resource="bcm-degree.xml"/>
+</bcm>
