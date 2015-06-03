@@ -55,3 +55,33 @@ Command-line arguments:  -data D:\GitHub\Ladder -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2015-05-22 16:24:58.722
 !MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!SESSION 2015-06-03 08:59:04.161 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-06-03 08:59:37.076
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-06-03 09:00:26.869
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-03 09:00:30.980
+!MESSAGE Could not determine source level, using default 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-03 09:00:30.981
+!MESSAGE Could not determine target level, using default 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-06-03 09:00:31.182
+!MESSAGE 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-03 09:00:36.410
+!MESSAGE Could not determine source level, using default 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-06-03 09:00:36.410
+!MESSAGE Could not determine target level, using default 
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-06-03 09:00:36.646
+!MESSAGE 
