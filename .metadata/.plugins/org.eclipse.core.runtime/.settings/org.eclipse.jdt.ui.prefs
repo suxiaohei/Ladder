@@ -1,3 +1,4 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.study.Ladder.java.recursive.MapTest"><rhs name\="com.study.Ladder.java.recursive.MapTest"/></lhs><lhs name\="com.study.Ladder.thread.TestConCurrentHashMap"><rhs name\="com.study.Ladder.thread.TestConCurrentHashMap"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="com.study.Ladder.timer.DeleteFileAction"/><rhs name\="com.study.Ladder.thread.MyThreadPool"/></lhs><lhs name\="java.util.TimerTask"><rhs name\="com.study.Ladder.timer.DeleteFileAction"/></lhs><lhs name\="com.study.Ladder.timer.ScheduledExecutorTest"><rhs name\="com.study.Ladder.timer.ScheduledExecutorTest"/></lhs><lhs name\="com.study.Ladder.example.IMath"><rhs name\="com.study.Ladder.example.IMath"/></lhs><lhs name\="com.study.Ladder.example.StaticTest"><rhs name\="com.study.Ladder.example.StaticTest"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="com.study.Ladder.clone.MyObject"/></lhs><lhs name\="com.study.Ladder.clone.MyObject"><rhs name\="com.study.Ladder.clone.MyObject"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="java.lang.InterruptedException"><rhs name\="java.lang.InterruptedException"/></lhs><lhs name\="com.study.Ladder.awt.Counter1"><rhs name\="com.study.Ladder.awt.Counter1"/></lhs><lhs name\="com.study.Ladder.thread.MyThreadSyn"><rhs name\="com.study.Ladder.thread.MyThreadSyn"/></lhs><lhs name\="java.lang.Thread"><rhs name\="com.study.Ladder.thread.MyThreadPool"/></lhs><lhs name\="java.util.concurrent.locks.Lock"><rhs name\="java.util.concurrent.locks.ReentrantLock"/></lhs></history>
 content_assist_number_of_computers=17
 content_assist_proposals_background=174,219,180
 content_assist_proposals_foreground=0,0,0
@@ -6,9 +7,23 @@ fontPropagated=true
 org.eclipse.jdt.ui.editor.tab.width=
 org.eclipse.jdt.ui.formatterprofiles.version=12
 org.eclipse.jdt.ui.javadoclocations.migrated=true
-org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 proposalOrderMigrated=true
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
 spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
 tabWidthPropagated=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

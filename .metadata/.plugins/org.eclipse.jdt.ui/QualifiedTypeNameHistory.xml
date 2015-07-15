@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.study.Ladder.java.recursive.MapTest"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.sun.java.util.jar.pack.Package.File"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.TestConCurrentHashMap"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="org.codehaus.groovy.tools.shell.util.Logger"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="com.study.Ladder.timer.DeleteFileAction"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.study.Ladder.timer.ScheduledExecutorTest"/>
+<fullyQualifiedTypeName name="com.study.Ladder.example.IMath"/>
+<fullyQualifiedTypeName name="com.study.Ladder.example.StaticTest"/>
+<fullyQualifiedTypeName name="com.study.Ladder.clone.MyObject"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="com.study.Ladder.awt.Counter1"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="java.applet.Applet"/>
+<fullyQualifiedTypeName name="java.util.concurrent.CyclicBarrier"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.MyThreadSyn"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.MyThreadPool"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Future"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.UserLock"/>
+</qualifiedTypeNameHistroy>
