@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="com.study.Ladder.timer.DeleteFileAction"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -42,4 +41,17 @@
 <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 <fullyQualifiedTypeName name="com.study.Ladder.thread.UserLock"/>
+<fullyQualifiedTypeName name="org.quartz.JobBuilder"/>
+<fullyQualifiedTypeName name="org.quartz.TriggerBuilder"/>
+<fullyQualifiedTypeName name="org.quartz.SimpleScheduleBuilder"/>
+<fullyQualifiedTypeName name="org.quartz.Trigger"/>
+<fullyQualifiedTypeName name="org.quartz.impl.StdSchedulerFactory"/>
+<fullyQualifiedTypeName name="org.quartz.SchedulerFactory"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.quartz.JobDetail"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.MyThreadVar"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.ThreadLocalMy"/>
+<fullyQualifiedTypeName name="java.security.MessageDigest"/>
+<fullyQualifiedTypeName name="java.security.DigestInputStream"/>
+<fullyQualifiedTypeName name="com.study.Ladder.thread.callback.CallbackDigest"/>
 </qualifiedTypeNameHistroy>
