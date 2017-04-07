@@ -2,9 +2,7 @@
 # Operating System Files
 # =========================
 
-genera/.settings
 genera/target
-timedo/.classpath
-timedo/.project
+timedo/target
 .idea
 
