@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bcm.xsd" version="5.0" type="web" owlVersion="5.0">
+    <class field="Document" name="文档">
+        <data-property>
+            <dp field="title" name="标题" token="true" type="string" multiValue="true" mlt="true" snToken="true" multiLanguage="true" />
+            <dp field="otherTitle" name="标题" token="true" type="string" language="chi" />
+            <dp field="pageCount" name="总页数" type="int" />
+            <dp field="storageTime" name="存储时间" type="date" index="false" store="false" />
+            <dp field="language" name="语种" type="string" />
+        </data-property>
+        <object-property>
+            <op field="hasOrganization" name="有机构" rangClass="Organization">
+                <rel-dp field="name" extract="true" snToken="true" />
+            </op>
+            <op field="hasAuthor" name="有作者" rangClass="People">
+                <rel-dp field="sequence" />
+                <rel-dp field="name" extract="true" snToken="true" />
+            </op>
+            <op field="hasPublisher" name="有发布者" rangClass="People">
+                <rel-dp field="name" extract="true" snToken="true" />
+            </op>
+        </object-property>
+    </class>
+    <class field="Paper" name="论文" extend="Document">
+        <data-property>
+            <dp field="issn" name="issn 号" type="string" />
+            <dp field="abstract" token="true" name="摘要" type="string" />
+            <dp field="year" name="年" type="int" />
+            <dp field="volume" name="卷信息" type="string" />
+            <dp field="issue" name="期信息" type="string" />
+            <dp field="startPage" name="起始页" type="int" />
+            <dp field="endPage" name="结束页" type="int" />
+            <dp field="createTime" name="时间" type="date" />
+        </data-property>
+        <object-property>
+            <op field="hasKeyword" name="有关键词" rangClass="Keyword">
+                <rel-dp field="name" mlt="true" extract="true" snToken="true" />
+                <rel-dp field="weight" />
+            </op>
+        </object-property>
+    </class>
+    <class field="Keyword" name="关键词">
+        <data-property>
+            <dp field="id" name="id" type="string" />
+            <dp field="name" token="true" name="名称" type="string" />
+            <dp field="weight" name="权重" type="string" />
+        </data-property>
+    </class>
+    <class field="People" name="人员">
+        <data-property>
+            <dp field="sequence" name="序号" type="string" />
+            <dp field="name" token="true" name="名称" type="string" />
+            <dp field="birthday" name="生日" type="date" />
+        </data-property>
+        <object-property>
+            <op field="hasOrganization" name="有机构" rangClass="Organization" multiValue="false">
+                <rel-dp field="name" mlt="true" extract="true" snToken="true" />
+            </op>
+        </object-property>
+    </class>
+    <class field="Organization" name="机构">
+        <data-property>
+            <dp field="name" token="true" name="名称" type="string" />
+            <dp field="address" name="地址" token="true" type="string" />
+            <dp field="city" name="城市" type="string" />
+        </data-property>
+    </class>
+    <class field="JournalPaper" name="期刊论文" extend="Paper"></class>
+    <!-- 引入其它配置文件-->
+    <import resource="bcm-web.xml" />
+</bcm>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="bcm">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="class" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="data-property" nillable="false" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="dp" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="field" type="xs:string" use="required"/>
+												<xs:attribute name="showName" type="xs:string"/>
+												<xs:attribute name="advance" type="xs:boolean" default="false"/>
+												<xs:attribute name="sort" type="xs:integer" default="0"/>
+												<xs:attribute name="chart" type="xs:string" default="pie"/>
+												<xs:attribute name="hidden" type="xs:boolean" default="false"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="object-property" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="op" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="rel-dp" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:attribute name="field" type="xs:string" use="required"/>
+															<xs:attribute name="showName" type="xs:string"/>
+															<xs:attribute name="advance" type="xs:boolean" default="false"/>
+															<xs:attribute name="sort" type="xs:integer" default="0"/>
+															<xs:attribute name="chart" type="xs:string" default="pie"/>
+															<xs:attribute name="hidden" type="xs:boolean" default="false"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="field" type="xs:string" use="required"/>
+												<xs:attribute name="showName" type="xs:string"/>
+												<xs:attribute name="image" type="xs:string"/>
+												<xs:attribute name="advance" type="xs:boolean" default="false"/>
+												<xs:attribute name="sort" type="xs:integer" default="0"/>
+												<xs:attribute name="chart" type="xs:string" default="pie"/>
+												<xs:attribute name="hidden" type="xs:boolean" default="false"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="field" type="xs:string" use="required"/>
+						<xs:attribute name="showName" type="xs:string"/>
+						<xs:attribute name="sort" type="xs:integer" default="0"/>
+						<xs:attribute name="image" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="import">
+					<xs:complexType>
+						<xs:attribute name="resource" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:string" use="required"/>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="owl"/>
+						<xs:enumeration value="web"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="owlVersion" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
