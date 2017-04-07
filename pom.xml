@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.study</groupId>
+    <artifactId>ladder-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>ladder-parent</name>
+    <url>https://github.com/suxiaohei/ladder</url>
+
+    <organization>
+        <name>The Java Example Project</name>
+        <url>https://github.com/suxiaohei/ladder</url>
+    </organization>
+
+    <scm>
+        <url>https://github.com/suxiaohei/ladder</url>
+        <connection>scm:git:git://github.com/suxiaohei/ladder.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/suxiaohei/ladder.git</developerConnection>
+        <tag>netty-4.1.9.Final</tag>
+    </scm>
+
+    <modules>
+        <module>genera</module>
+        <module>timedo</module>
+    </modules>
+
+</project>

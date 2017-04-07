@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.study</groupId>
-  <artifactId>TimeDo</artifactId>
+  <artifactId>timedo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>TimeDo</name>
+  <name>timedo</name>
   <url>http://maven.apache.org</url>
 
   <properties>
