@@ -24,10 +24,10 @@ public class WatchDecoder extends ByteToMessageDecoder {
             ctx.close();
             return;
         }
-        int end_index = msg_str.lastIndexOf("@E#@");
-        if (end_index < 0) {
+        int end_str_index = msg_str.indexOf("@E#@");
+        if (end_str_index < 0) {
             return;
         }
-        out.add(msg.readBytes(end_index + 4));
+        out.add(msg.readBytes(end_str_index + 4));
     }
 }
