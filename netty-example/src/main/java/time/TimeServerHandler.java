@@ -15,6 +15,7 @@ public class TimeServerHandler extends ChannelInboundHandlerAdapter {
     public void channelActive(final ChannelHandlerContext ctx) {
         final ByteBuf time = ctx.alloc().buffer(4);
         time.writeInt((int) (System.currentTimeMillis() / 1000l + 2208988800l));
+        time.writeShort(1);
         final ChannelFuture future = ctx.writeAndFlush(time);
         future.addListener(new ChannelFutureListener() {
             @Override
