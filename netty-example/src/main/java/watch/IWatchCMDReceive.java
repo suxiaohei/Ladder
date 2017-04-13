@@ -1,6 +1,7 @@
 package watch;
 
 import io.netty.channel.socket.SocketChannel;
+import watch.WatchCMD;
 
 /**
  * Created by suxin on 17-4-10.

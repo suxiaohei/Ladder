@@ -28,7 +28,7 @@ public class WatchClient {
                 }
             });
 
-            ChannelFuture future = bootstrap.connect("localhost", 8080).sync();
+            ChannelFuture future = bootstrap.connect("localhost", 10001).sync();
             future.channel().closeFuture().sync();
 
         } catch (Exception ex) {

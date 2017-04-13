@@ -30,7 +30,7 @@ public class WatchServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new WatchDecoder(), new WatchServerConvertHandler(), new WatchServerSupervisorHandler());
+                            ch.pipeline().addLast(new WatchServerDecoder(), new WatchServerConvertHandler(), new WatchServerSupervisorHandler());
                         }
                     }).option(ChannelOption.SO_BACKLOG, 128).childOption(ChannelOption.SO_KEEPALIVE, true);
             ChannelFuture future = bootstrap.bind(port).sync();

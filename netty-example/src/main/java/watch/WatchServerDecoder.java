@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by suxin on 17-4-10.
  */
-public class WatchDecoder extends ByteToMessageDecoder {
+public class WatchServerDecoder extends ByteToMessageDecoder {
 
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf msg, List<Object> out) {

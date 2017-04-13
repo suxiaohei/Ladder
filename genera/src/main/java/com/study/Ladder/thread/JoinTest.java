@@ -11,7 +11,7 @@ public class JoinTest {
 		t.start();
 		
 		for(int i=0;i<20;i++){
-			System.out.println("主线程第"+i+"次执行");
+			System.out.println("??????"+i+"?????");
 			if(i>2){
 				try {
 					t.join();
@@ -26,7 +26,7 @@ public class JoinTest {
 class MyThread extends Thread{
 	public void run(){
 		for(int i=0;i<10;i++){
-			System.out.println("子线程第"+i+"次执行");
+			System.out.println("??????"+i+"?????");
 		}
 	}
 }
