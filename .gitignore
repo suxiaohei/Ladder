@@ -7,3 +7,5 @@ timedo/target
 .idea
 *.iml
 
+.gradle/
+
