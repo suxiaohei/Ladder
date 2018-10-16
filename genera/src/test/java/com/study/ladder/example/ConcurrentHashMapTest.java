@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by suxin on 17-4-11.
+ * @author suxin
  */
 public class ConcurrentHashMapTest extends TestCase {
 
@@ -15,7 +15,7 @@ public class ConcurrentHashMapTest extends TestCase {
         super(testName);
     }
 
-    public void testRemove(){
+    public void testRemove() {
         map.remove("111");
         assertTrue(true);
     }

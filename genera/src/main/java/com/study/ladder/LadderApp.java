@@ -4,7 +4,7 @@ package com.study.ladder;
  * Hello world!
  *
  */
-public class App 
+public class LadderApp
 {
     public static void main( String[] args )
     {

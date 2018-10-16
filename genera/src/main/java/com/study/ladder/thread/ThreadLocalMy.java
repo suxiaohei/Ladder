@@ -1,11 +1,15 @@
 package com.study.ladder.thread;
 
+/**
+ * @author suxin
+ */
 public class ThreadLocalMy {
-	
-	private Integer t1 = 0;
-	public Integer getNextNum(){
-		return t1 = t1 + 1;
-	}
+
+    private Integer t1 = 0;
+
+    public Integer getNextNum() {
+        return t1 = t1 + 1;
+    }
 
 //	private ThreadLocal<Integer> tl = new ThreadLocal<Integer>(){
 //		
