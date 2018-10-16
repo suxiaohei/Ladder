@@ -24,7 +24,6 @@
 
     <modules>
         <module>genera</module>
-        <module>timedo</module>
         <module>netty-example</module>
     </modules>
 
