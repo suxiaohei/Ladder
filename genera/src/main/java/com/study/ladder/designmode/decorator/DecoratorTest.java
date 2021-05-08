@@ -1,7 +1,7 @@
 package com.study.ladder.designmode.decorator;
 
 /**
- * 测试
+ * 装饰模式测试，应用于已有的数据增加新增的功能
  *
  * @author suxin
  * @since 2021-05-08
