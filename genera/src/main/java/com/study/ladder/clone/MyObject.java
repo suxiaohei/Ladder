@@ -23,6 +23,7 @@ public class MyObject implements Cloneable {
         return o;
     }
 
+    @Override
     public String toString() {
         return Integer.toString(i);
     }
