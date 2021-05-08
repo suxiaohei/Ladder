@@ -1,7 +1,7 @@
 package com.study.ladder.designmode.simplefactory;
 
 /**
- * 简单工厂, 解决类的创建
+ * 简单工厂, 解决类的创建(子类入参一致的情况)
  *
  * @author suxin
  * @since 2021-05-08

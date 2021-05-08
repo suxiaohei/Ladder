@@ -6,7 +6,7 @@ package com.study.ladder.designmode.simplefactory;
  * @author suxin
  * @since 2021-05-08
  */
-public class Test {
+public class SimpleFactoryTest {
 
     public static void main(String[] args) {
 
