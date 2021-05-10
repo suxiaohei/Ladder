@@ -1,4 +1,4 @@
-package com.study.ladder.designmode.simplefactory;
+package com.study.ladder.designmode.factorysimple;
 
 /**
  * 简单工厂, 解决类的创建(子类入参一致的情况)

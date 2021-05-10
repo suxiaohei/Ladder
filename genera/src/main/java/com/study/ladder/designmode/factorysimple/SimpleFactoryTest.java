@@ -1,4 +1,4 @@
-package com.study.ladder.designmode.simplefactory;
+package com.study.ladder.designmode.factorysimple;
 
 /**
  * 测试类
